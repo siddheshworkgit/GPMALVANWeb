@@ -1,0 +1,667 @@
+/*Title image settings*/
+.nav-brand-up{
+  width: 70%;
+}
+
+
+/*Navbar Settings*/
+.nav-ln-dep{
+  color: white;
+}
+
+.row{
+  margin-right: 0;
+      margin-left: 0;
+}
+
+.navbar{
+  margin: 8% 0 0 0;
+  width: 100%;
+}
+.nv-lk{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.nav-ln-dep{
+  color: white;
+}
+
+.navbar-nav.ml-auto{
+  margin-left: 0 !important;
+  text-align: center;
+}
+
+.nv-it:hover{
+  background: linear-gradient(180deg, rgba(8,174,234,0.5606617647058824) 0%, rgba(42,245,152,0.5214460784313726) 100%);
+border-radius: 5px;
+}
+/*Home page settings*/
+.landing-screen{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.dawnload-button{
+  margin-top: 4%;
+  margin-right: 4%;
+}
+
+.social-icon{
+  text-align: right;
+  margin-top: 3%;
+}
+
+/*Social Icons Settings*/
+.btn.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.template-demo>.btn {
+    margin-right: 0.5rem !important;
+}
+
+.template-demo {
+    margin-top: 0.5rem !important;
+}
+
+.btn.btn-rounded {
+    border-radius: 50px;
+}
+
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-outline-youtube {
+    border: 1px solid #e52d27;
+    color: #e52d27;
+}
+
+.btn-outline-twitter {
+    border: 1px solid #2caae1;
+    color: #2caae1;
+}
+
+
+.btn-outline-linkedin {
+    border: 1px solid #0177b5;
+    color: #0177b5;
+}
+
+.btn-outline-instagram {
+  border: 1px solid #ea4c89;
+     color: #ea4c89;
+}
+
+.btn-outline-twitter:hover {
+    background: #2caae1;
+    color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+    background: #0177b5;
+    color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+.btn-outline-instagram:hover {
+  background: #e51e6b;
+    color: #ffffff;
+}
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-youtube {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+.btn-twitter {
+    background: #2caae1;
+    color: #ffffff;
+}
+
+
+.btn-linkedin {
+    background: #0177b5;
+    color: #ffffff;
+}
+
+.btn-instagram {
+  background: #ea4c89;
+  color: #ffffff;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff;
+}
+
+.btn-youtube:hover,
+.btn-youtube:focus {
+    background: #c21d17;
+    color: #ffffff;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff;
+}
+
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+    background: #015682;
+    color: #ffffff;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+  background: #e51e6b;
+     color: #ffffff;
+}
+
+/*About Institute home section*/
+#about{
+  background: linear-gradient(180deg, rgba(8,174,234,0.639093137254902) 0%, rgba(42,245,152,0.5802696078431373) 100%)
+  ,url(../images/abt-img.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+  padding:1em 0;
+}
+
+.abt-int{
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+.about-para{
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.abt-pra-btn{
+  text-align: center;
+}
+
+/*Members section*/
+.administration-heading{
+  margin: 4% 0 4% 0;
+text-align: center;
+}
+
+#members p{
+  font-size: 0.9rem;
+  color: red;
+  margin: 0
+}
+
+.invadual-name{
+  color: red;
+  font-size: 1.2rem;
+}
+.carousel-caption{
+  padding: 0;
+  top: 74%
+}
+/*Members Carsoul*/
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 1349px) and (min-width: 978px){
+.top-image-card{
+  position: absolute;
+  top: -20%;
+  left: 36%;
+
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 668px){
+.top-image-card{
+  position: absolute;
+  top: -20%;
+  left: 28%;
+
+}
+}
+
+/*Notification panal*/
+
+.notification-pane-out{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.notification-pane-in{
+  padding: 9% 0 9% 0;
+  text-align: center;
+  color: white;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+
+/*App Landing Screen*/
+
+#app-down{
+background: linear-gradient(180deg, rgba(8,174,234,0.639093137254902) 0%, rgba(42,245,152,0.5802696078431373) 100%)
+,url(../images/bg-app.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+  padding:1em 0;
+}
+
+.phone-image{
+  width: 65%;
+}
+
+.phone-image-div{
+  text-align: center;
+}
+
+.app-dawnload-btn{
+  width: 40%
+}
+
+.android-btn{
+  margin-right: 8%;
+}
+/*Main Links And Accredential Page*/
+#Assoceates{
+  margin-top: 8%;
+  margin-bottom: 6%
+}
+
+.aicte{
+width: 10%
+}
+
+.dte{
+width: 12%;
+}
+
+.msbte{
+width: 14%;
+}
+
+.mhshasan{
+width: 12%
+}
+
+.mhrd{
+width: 20%
+}
+.accreditation-links-a{
+  transition: .2s;
+  text-decoration:none;
+}
+
+.accreditation-links-a:hover{
+  opacity: 1;
+text-decoration:none;
+}
+
+.accreditation-links{
+  text-align: center;
+  margin-left:3%;
+  filter: grayscale(100%);
+  opacity: .6;
+  transition: .2s;
+}
+.accreditation-links:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+margin-top: -12px;
+text-decoration:none;
+}
+
+/*department Carsoul*/
+
+/*Carsoul Card Settings*/
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+  transform: translateX(0);
+}
+
+
+/* card settings */
+
+.cbdy-cas{
+  text-align: center;
+}
+
+.crd-ttl-cas{
+
+margin-top: 20%;
+
+}
+
+.top-image-card-cas{
+  position: absolute;
+  top: -20%;
+  left: 38%;
+
+}
+
+@media screen and (max-width: 1349px) and (min-width: 978px){
+.top-image-card{
+  position: absolute;
+  top: -20%;
+  left: 36%;
+
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 668px){
+.top-image-card{
+  position: absolute;
+  top: -20%;
+  left: 28%;
+
+}
+}
+
+.cas-edp{
+  margin-top: 80px;
+}
+
+/*the settings of card-carsoul ending here */
+
+/*Institute Page Settings*/
+.landing-screen-int{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.counters-sec{
+
+}
+
+.ctr-fnt{}
+
+.counter-combiner{
+  text-align: center;
+}
+/*All Page Card Settings*/
+.int-sec{
+
+margin-bottom: 5%
+
+}
+
+.card-body-navi{
+  text-align: center;
+}
+
+.card-body-navi:hover{
+
+background: linear-gradient(0deg, rgba(8,174,234,0.6811099439775911) 0%, rgba(42,245,152,0.6418942577030813) 100%);
+
+}
+
+.card-title-navi{
+
+margin-top: 20%;
+
+}
+
+.top-image-card-navi{
+  position: absolute;
+  top: -20%;
+  left: 38%;
+
+}
+
+@media screen and (max-width: 1349px) and (min-width: 978px){
+.top-image-card-navi{
+  position: absolute;
+  top: -20%;
+  left: 36%;
+
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 668px){
+.top-image-card-navi{
+  position: absolute;
+  top: -20%;
+  left: 28%;
+
+}
+}
+
+.card-navi{
+  margin-top: 80px;
+}
+
+.navi-btn{
+  border-radius: 2px 20px;
+
+}
+
+.navi-btn:hover{
+  background:white;
+  color: black;
+  border-color: white;
+}
+
+/*Footer Sttongs*/
+
+#footer{
+	background: url(../images/13.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+	padding:1em 0;
+
+}
+
+#footer h3 {
+	font-size: 1.5em;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+#footer p{
+  color: #ffffff;
+  line-height: 2rem;
+}
+.link-all{
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 2rem;
+}
+
+#footer li,ul{
+  text-decoration: none;
+  color: #ffffff;
+  list-style-type: none;
+  line-height: 2.5rem;
+
+}
+
+.abt-us-ftr{
+padding-right:60px;
+}
+
+.ftr-ul{
+  padding-left:100px;
+}
+
+@media screen and (max-width: 890px){
+#footer{
+  text-align: center;
+}
+#footer ul{
+  padding-left: 0;
+}
+
+.abt-us-ftr{
+  padding-right: 0;
+}
+
+}
+
+/*INSTITUTE SECTION SETTINGS*/
+
+#counters-sec{
+  background: linear-gradient(100deg, rgba(8,174,234,0.7175245098039216) 0%, rgba(42,245,152,0.8547794117647058) 79%);
+
+}
+
+.counter-sec-cl{
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.icn-cntr{
+  font-size: 2.3rem;
+  color: white;
+  margin-right: 1.2rem;
+}
+.ctr-fnt{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.unit{
+  font-size: 3rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.sub-line-counter{
+  font-size: 1rem;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Department Page Settings*/
+@media screen and (max-width: 890px){
+  .nme-hod{
+    margin-top: 10% !important;
+  }
+
+}
+
+.cdep-con{
+  margin-top: 5%;
+  text-align: center;
+}
+
+#dep-clg{
+  margin-top: 5%;
+}
+
+/*Contact Page Settings*/
+
+#bottom-contact{
+  background-image: linear-gradient(180deg, #21f3fe 0%,#2597f8 100%);
+  padding-top: 60px;
+}
+
+.agile_map iframe{
+	width:100%;
+	min-height:400px;
+	margin-bottom:-6px;
+}
+
+.agile_map iframe {
+		min-height: 400px;
+	}
